@@ -9,10 +9,8 @@ def calculate_gps_position(start_lat, start_lon, end_lat, end_lon, total_time, t
     - end_lon: Zeměpisná délka koncového bodu.
     - total_time: Celkový čas letu (v sekundách).
     - time_of_interest: Čas na videu (v sekundách), kde je potřeba zjistit polohu.
-
-    Návratová hodnota:
-    - Tuple (lat, lon): Souřadnice požadovaného bodu.
     """
+
     # Směrový vektor přímky (dx, dy)
     dx = end_lon - start_lon
     dy = end_lat - start_lat
@@ -36,10 +34,8 @@ def format_coordinates(lat, lon):
     Parametry:
     - lat: Zeměpisná šířka.
     - lon: Zeměpisná délka.
-
-    Návratová hodnota:
-    - Formátované souřadnice jako text.
     """
+
     lat_direction = 'N' if lat >= 0 else 'S'
     lon_direction = 'E' if lon >= 0 else 'W'
 
