@@ -1,4 +1,4 @@
-# GPS Position Calculator
+# Drone GPS Position Calculator
 
 Tento projekt vypočítává GPS souřadnice dronu v určitém čase během jeho letu pomocí parametrických rovnic.
 
@@ -25,3 +25,7 @@ Tento projekt vypočítává GPS souřadnice dronu v určitém čase během jeho
 
 4. **Spuštění skriptu**:
    - Pokud je skript spuštěn jako hlavní program, zavolá funkci `main`.
+
+## Copyright
+
+© 2023 TobiSvasek. All rights reserved.
